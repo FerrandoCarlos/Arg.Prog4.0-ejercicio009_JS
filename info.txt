@@ -1,0 +1,12 @@
+Ejercicio 9:
+Crear un documento HTML:
+*Crear un párrafo cuya id es parrafo. Y escribir un texto
+*En el mismo HTML crear un formulario que le solicita al usuario ingresar un número y agregar un bóton que llame a una función.
+*Crear un párrafo vacio destinado a escribir un mensaje de éxito o error.
+
+Crear un script y vincularlo al HTML
+*Crear la función que es llamada por el boton del formulario.
+*Obtenga el valor numérico que ingresa el usuario.
+*Validad que el valor sea igual o mayor a 10.
+*Si se cumple la condición, aplicar al elemento cuya id es parrafo el valor indicado por el usario como estilo desde JS, cambiando de tamaño de fuente en pixeles. Escribir un mensaje indicando que se ha aplicado el cambio de tamaño.
+*En caso contrario mostrar el error en un párrafo destinado al mensaje. 

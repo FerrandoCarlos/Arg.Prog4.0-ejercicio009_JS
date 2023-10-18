@@ -1,0 +1,36 @@
+<!-- 
+Ejercicio 9:
+Crear un documento HTML:
+*Crear un párrafo cuya id es párrafo. Y escribir un texto
+*En el mismo HTML crear un formulario que le solicita al usuario ingresar un número y agregar un botón que llame a una función.
+*Crear un párrafo vacío destinado a escribir un mensaje de éxito o error.
+
+Crear un script y vincularlo al HTML
+*Crear la función que es llamada por el botón del formulario.
+*Obtenga el valor numérico que ingresa el usuario.
+*Validar que el valor sea igual o mayor a 10.
+*Si se cumple la condición, aplicar al elemento cuya id es párrafo el valor indicado por el usuario como estilo desde JS, cambiando de tamaño de fuente en pixeles. Escribir un mensaje indicando que se ha aplicado el cambio de tamaño.
+*En caso contrario mostrar el error en un párrafo destinado al mensaje. 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="css/">
+</head>
+<body>
+    <div class="container">
+       <p id="parrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem voluptate e
+       </p> 
+       <form action="#">
+        <input type="number" id="number" placeholder="Ingresar un número...">
+        <button id="bttn">Validar</button>
+       </form>
+       <p id="msg" class="error exito"></p>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
